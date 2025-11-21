@@ -1,0 +1,11 @@
+[
+    {
+        "pgm_name": "ZDEMO_303_304",
+        "inc_name": "ZDEMOI01",
+        "type": "PROG",
+        "name": "MAIN",
+        "start_line": 1,
+        "end_line": 999,
+        "code": "SET EXTENDED CHECK.\nBREAK-POINT.\nBREAK-POINT ID MYID.\nbreak-point.\nWRITE 'Hello World'.\nDATA lv_ok TYPE i.\nIF lv_ok = 1.\n  WRITE 'OK'.\nENDIF.\nDATA lv_test TYPE string. BREAK-POINT. lv_test = 'X'.\nSeT   ExTeNdEd    CheCK .\nSET EXTENDED MODE.\nBREAK ME.\nBREAKING NEWS.\nBREAK-POINT. BREAK-POINT ID xyz.\n"
+    }
+]
